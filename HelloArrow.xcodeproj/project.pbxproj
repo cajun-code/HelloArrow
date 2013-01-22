@@ -21,6 +21,12 @@
 		CE5E60BC1696837A000D2628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E609D1696837A000D2628 /* Foundation.framework */; };
 		CE5E60C41696837A000D2628 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5E60C21696837A000D2628 /* InfoPlist.strings */; };
 		CE5E60C71696837A000D2628 /* HelloArrowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60C61696837A000D2628 /* HelloArrowTests.m */; };
+		CE5E60DA16968787000D2628 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E60D816968787000D2628 /* OpenGLES.framework */; };
+		CE5E60DB16968787000D2628 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E60D916968787000D2628 /* QuartzCore.framework */; };
+		CE5E60DE1696895C000D2628 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60DD1696895C000D2628 /* GLView.mm */; };
+		CE5E60E41696A6EE000D2628 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60DD1696895C000D2628 /* GLView.mm */; };
+		CE5E610916AE54F9000D2628 /* RenderingEngine1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE5E610716AE54F9000D2628 /* RenderingEngine1.cpp */; };
+		E1CE8AB6A5BA49D6ACE67590 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E384BAA13640ECAB3560E5 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36E384BAA13640ECAB3560E5 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E609716968379000D2628 /* HelloArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E609B16968379000D2628 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE5E609D1696837A000D2628 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,14 @@
 		CE5E60C31696837A000D2628 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE5E60C51696837A000D2628 /* HelloArrowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloArrowTests.h; sourceTree = "<group>"; };
 		CE5E60C61696837A000D2628 /* HelloArrowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloArrowTests.m; sourceTree = "<group>"; };
+		CE5E60D816968787000D2628 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE5E60D916968787000D2628 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE5E60DC1696895C000D2628 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		CE5E60DD1696895C000D2628 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		CE5E60E31696A6E5000D2628 /* IRenderingEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IRenderingEngine.hpp; sourceTree = "<group>"; };
+		CE5E610716AE54F9000D2628 /* RenderingEngine1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine1.cpp; sourceTree = "<group>"; };
+		CE5E610816AE54F9000D2628 /* RenderingEngine1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingEngine1.h; sourceTree = "<group>"; };
+		E1508A4977AB4DECA7677E5A /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E60DA16968787000D2628 /* OpenGLES.framework in Frameworks */,
+				CE5E60DB16968787000D2628 /* QuartzCore.framework in Frameworks */,
 				CE5E609C1696837A000D2628 /* UIKit.framework in Frameworks */,
 				CE5E609E1696837A000D2628 /* Foundation.framework in Frameworks */,
 				CE5E60A01696837A000D2628 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +90,7 @@
 				CE5E60BA1696837A000D2628 /* SenTestingKit.framework in Frameworks */,
 				CE5E60BB1696837A000D2628 /* UIKit.framework in Frameworks */,
 				CE5E60BC1696837A000D2628 /* Foundation.framework in Frameworks */,
+				E1CE8AB6A5BA49D6ACE67590 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 				CE5E60BF1696837A000D2628 /* HelloArrowTests */,
 				CE5E609A16968379000D2628 /* Frameworks */,
 				CE5E609816968379000D2628 /* Products */,
+				E1508A4977AB4DECA7677E5A /* Pods-test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +120,13 @@
 		CE5E609A16968379000D2628 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE5E60D816968787000D2628 /* OpenGLES.framework */,
+				CE5E60D916968787000D2628 /* QuartzCore.framework */,
 				CE5E609B16968379000D2628 /* UIKit.framework */,
 				CE5E609D1696837A000D2628 /* Foundation.framework */,
 				CE5E609F1696837A000D2628 /* CoreGraphics.framework */,
 				CE5E60B91696837A000D2628 /* SenTestingKit.framework */,
+				36E384BAA13640ECAB3560E5 /* libPods-test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +137,11 @@
 				CE5E60AA1696837A000D2628 /* AppDelegate.h */,
 				CE5E60AB1696837A000D2628 /* AppDelegate.m */,
 				CE5E60A21696837A000D2628 /* Supporting Files */,
+				CE5E60DC1696895C000D2628 /* GLView.h */,
+				CE5E60DD1696895C000D2628 /* GLView.mm */,
+				CE5E60E31696A6E5000D2628 /* IRenderingEngine.hpp */,
+				CE5E610716AE54F9000D2628 /* RenderingEngine1.cpp */,
+				CE5E610816AE54F9000D2628 /* RenderingEngine1.h */,
 			);
 			path = HelloArrow;
 			sourceTree = "<group>";
@@ -180,6 +207,7 @@
 				CE5E60B41696837A000D2628 /* Frameworks */,
 				CE5E60B51696837A000D2628 /* Resources */,
 				CE5E60B61696837A000D2628 /* ShellScript */,
+				E38579EE9B6C42C986B6FB63 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +282,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		E38579EE9B6C42C986B6FB63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-test-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,6 +305,8 @@
 			files = (
 				CE5E60A81696837A000D2628 /* main.m in Sources */,
 				CE5E60AC1696837A000D2628 /* AppDelegate.m in Sources */,
+				CE5E60DE1696895C000D2628 /* GLView.mm in Sources */,
+				CE5E610916AE54F9000D2628 /* RenderingEngine1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5E60C71696837A000D2628 /* HelloArrowTests.m in Sources */,
+				CE5E60E41696A6EE000D2628 /* GLView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,9 +423,11 @@
 		};
 		CE5E60CE1696837A000D2628 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1508A4977AB4DECA7677E5A /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloArrow.app/HelloArrow";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -395,9 +442,11 @@
 		};
 		CE5E60CF1696837A000D2628 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1508A4977AB4DECA7677E5A /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloArrow.app/HelloArrow";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -429,6 +478,7 @@
 				CE5E60CC1696837A000D2628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5E60CD1696837A000D2628 /* Build configuration list for PBXNativeTarget "HelloArrowTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +487,7 @@
 				CE5E60CF1696837A000D2628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
