@@ -19,10 +19,10 @@ struct Vertex{
 
 const Vertex Vertices[] = {
     {{-0.5,-0.866}, {1,1,0.5f,1}},
-    {{-0.5,-0.866}, {1,1,0.5f,1}},
+    {{0.5,-0.866}, {1,1,0.5f,1}},
     {{0,1}, {1,1,0.5f,1}},
     {{-0.5,-0.866}, {0.5f,0.5f, 0.5f}},
-    {{-0.5,-0.866}, {0.5f,0.5f, 0.5f}},
+    {{0.5,-0.866}, {0.5f,0.5f, 0.5f}},
     {{0,-0.4f}, {0.5f,0.5f, 0.5f}},
 };
 
@@ -36,12 +36,15 @@ RenderingEngine1::RenderingEngine1(){
 void RenderingEngine1::initialize(int width, int height){
     glGenFramebuffersOES(1, &frameBuffer);
     glBindFramebufferOES(GL_FRAMEBUFFER_OES, frameBuffer);
-    glFramebufferRenderbufferOES(GL_FRAMEBUFFER_OES, GL_COLOR_ATTACHMENT0_OES, GL_RENDERBUFFER_OES, renderBuffer);
+    glFramebufferRenderbufferOES(GL_FRAMEBUFFER_OES,
+                                 GL_COLOR_ATTACHMENT0_OES,
+                                 GL_RENDERBUFFER_OES,
+                                 renderBuffer);
     glViewport(0, 0, width, height);
     glMatrixMode(GL_PROJECTION);
     const float maxX = 2;
     const float maxY = 3;
-    glOrthof(-maxX, maxX, -maxY, maxY, -1, 1);
+    glOrthof(-maxX, +maxX, -maxY, +maxY, -1, 1);
     glMatrixMode(GL_MODELVIEW);
 }
 

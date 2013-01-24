@@ -11,8 +11,8 @@
 		CE5E609E1696837A000D2628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E609D1696837A000D2628 /* Foundation.framework */; };
 		CE5E60A01696837A000D2628 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E609F1696837A000D2628 /* CoreGraphics.framework */; };
 		CE5E60A61696837A000D2628 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5E60A41696837A000D2628 /* InfoPlist.strings */; };
-		CE5E60A81696837A000D2628 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60A71696837A000D2628 /* main.m */; };
-		CE5E60AC1696837A000D2628 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60AB1696837A000D2628 /* AppDelegate.m */; };
+		CE5E60A81696837A000D2628 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60A71696837A000D2628 /* main.mm */; };
+		CE5E60AC1696837A000D2628 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5E60AB1696837A000D2628 /* AppDelegate.mm */; };
 		CE5E60AE1696837A000D2628 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5E60AD1696837A000D2628 /* Default.png */; };
 		CE5E60B01696837A000D2628 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5E60AF1696837A000D2628 /* Default@2x.png */; };
 		CE5E60B21696837A000D2628 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5E60B11696837A000D2628 /* Default-568h@2x.png */; };
@@ -47,10 +47,10 @@
 		CE5E609F1696837A000D2628 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE5E60A31696837A000D2628 /* HelloArrow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloArrow-Info.plist"; sourceTree = "<group>"; };
 		CE5E60A51696837A000D2628 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE5E60A71696837A000D2628 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5E60A71696837A000D2628 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		CE5E60A91696837A000D2628 /* HelloArrow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloArrow-Prefix.pch"; sourceTree = "<group>"; };
 		CE5E60AA1696837A000D2628 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE5E60AB1696837A000D2628 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE5E60AB1696837A000D2628 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		CE5E60AD1696837A000D2628 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE5E60AF1696837A000D2628 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE5E60B11696837A000D2628 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		CE5E60D916968787000D2628 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE5E60DC1696895C000D2628 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
 		CE5E60DD1696895C000D2628 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
-		CE5E60E31696A6E5000D2628 /* IRenderingEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IRenderingEngine.hpp; sourceTree = "<group>"; };
+		CE5E60E31696A6E5000D2628 /* IRenderingEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRenderingEngine.h; sourceTree = "<group>"; };
 		CE5E610716AE54F9000D2628 /* RenderingEngine1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine1.cpp; sourceTree = "<group>"; };
 		CE5E610816AE54F9000D2628 /* RenderingEngine1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingEngine1.h; sourceTree = "<group>"; };
 		E1508A4977AB4DECA7677E5A /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -135,11 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				CE5E60AA1696837A000D2628 /* AppDelegate.h */,
-				CE5E60AB1696837A000D2628 /* AppDelegate.m */,
+				CE5E60AB1696837A000D2628 /* AppDelegate.mm */,
 				CE5E60A21696837A000D2628 /* Supporting Files */,
 				CE5E60DC1696895C000D2628 /* GLView.h */,
 				CE5E60DD1696895C000D2628 /* GLView.mm */,
-				CE5E60E31696A6E5000D2628 /* IRenderingEngine.hpp */,
+				CE5E60E31696A6E5000D2628 /* IRenderingEngine.h */,
 				CE5E610716AE54F9000D2628 /* RenderingEngine1.cpp */,
 				CE5E610816AE54F9000D2628 /* RenderingEngine1.h */,
 			);
@@ -151,7 +151,7 @@
 			children = (
 				CE5E60A31696837A000D2628 /* HelloArrow-Info.plist */,
 				CE5E60A41696837A000D2628 /* InfoPlist.strings */,
-				CE5E60A71696837A000D2628 /* main.m */,
+				CE5E60A71696837A000D2628 /* main.mm */,
 				CE5E60A91696837A000D2628 /* HelloArrow-Prefix.pch */,
 				CE5E60AD1696837A000D2628 /* Default.png */,
 				CE5E60AF1696837A000D2628 /* Default@2x.png */,
@@ -303,8 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5E60A81696837A000D2628 /* main.m in Sources */,
-				CE5E60AC1696837A000D2628 /* AppDelegate.m in Sources */,
+				CE5E60A81696837A000D2628 /* main.mm in Sources */,
+				CE5E60AC1696837A000D2628 /* AppDelegate.mm in Sources */,
 				CE5E60DE1696895C000D2628 /* GLView.mm in Sources */,
 				CE5E610916AE54F9000D2628 /* RenderingEngine1.cpp in Sources */,
 			);

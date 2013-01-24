@@ -12,7 +12,7 @@
 #import <OpenGLES/ES1/glext.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import "IRenderingEngine.hpp"
+#import "IRenderingEngine.h"
 
 @interface GLView : UIView
 

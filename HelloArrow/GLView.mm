@@ -30,6 +30,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         CAEAGLLayer *glLayer = (CAEAGLLayer *) super.layer;
+        glLayer.opaque = YES;
         
         _context = [[EAGLContext alloc] initWithAPI: kEAGLRenderingAPIOpenGLES1];
         if (!_context || ![EAGLContext setCurrentContext:_context]) {
